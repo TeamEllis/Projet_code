@@ -7,12 +7,16 @@ public class Coordonnees {
 		this.largeur=largeur;
 		this.hauteur=hauteur;
 	}
-	public int getLargeur(){
-		return this.largeur;
+	
+	public int getLargeur() {
+		return largeur;
 	}
-	public int getHauteur(){
-		return this.hauteur;
+
+
+	public int getHauteur() {
+		return hauteur;
 	}
+
 	public String toString(){
 		return "Largeur :"+largeur+"\tHauteur : "+hauteur;
 	}
